@@ -1,0 +1,29 @@
+item {
+  id: 1
+  name: 'DIP'
+}
+
+item {
+  id: 2
+  name: 'PIP'
+}
+
+item {
+  id: 3
+  name: 'MCP'
+}
+
+item {
+  id: 4
+  name: 'Radius'
+}
+
+item {
+  id: 5
+  name: 'Ulna'
+}
+
+item {
+  id: 6
+  name: 'Wrist'
+}

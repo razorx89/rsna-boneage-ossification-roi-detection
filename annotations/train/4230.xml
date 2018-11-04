@@ -1,0 +1,14 @@
+<annotation>
+	<folder>annotations</folder>
+	<filename>4230.png</filename>
+	<path>/home/aydin/rsnanet/label/annotations/4230.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2460</width>
+		<height>2970</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>
