@@ -10,7 +10,7 @@ fi
 mkdir -p /output/data-benchmark
 
 python helper/xml_to_csv.py \
-    --xml_dir=/data/train/annotations \
+    --xml_dir=/annotations/train \
     --output_path=/output/data-benchmark/train_labels.csv
 
 for SEED in 4 8 15 16 23 42 48 1516 2342 4815
