@@ -3,7 +3,7 @@ RSNA BoneAge - Ossification ROI Detection
 
 This repository contains additional annotations for the *RSNA Pediatric BoneAge Challenge* dataset. In total 240 training images and 89 evaluation images had been annotated with ROIs used in the medical routine for estimating boneage of hand radiographs. ROIs were labeled with one of the following: DIP, PIP, MCP, Radius, Ulna, and Wrist. In order to predict such ROIs on unseen images, the annotations were used to train a Faster-RCNN object detector using the [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection). An example inference visualization is shown below: ![Example inference](example.png)
 
-For sake of reproducibility, the Tensorflow version as well as the Tensorflow Models repository is explicitly defined. The docker container uses a prebuild Tensorflow 1.4 image and the Tensorflow models repository is a commit from end of 2017.
+For sake of reproducibility, the Tensorflow version as well as the Tensorflow Models repository is explicitly defined. The docker container uses a prebuild Tensorflow 1.4 image and the Tensorflow models repository is a commit from end of 2017. Please note, that GPUs newer than Pascal generation seem to not work with Tensorflow 1.4 (e.g. Titan V does not work). Either run the benchmark code on a Pascal card (e.g. GTX 1080 Ti) or try to update to a newer Tensorflow image.
 
 # How to use
 
