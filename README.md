@@ -16,9 +16,7 @@ For sake of reproducibility, the Tensorflow version as well as the Tensorflow Mo
 
 # Citation
 
-> S. Koitka, A. Demircioglu, M.S. Kim, C.M. Friedrich, F. Nensa:   
-> **Ossification area localization in pediatric hand radiographs using deep neural networks for object detection**  
-> PLOS One, Special issue: Machine Learning in Health and Biomedicine  
-> Status: Accepted
-
-The complete citation information will be provided once known.
+> S. Koitka, A. Demircioglu, M.S. Kim, C.M. Friedrich, F. Nensa (2018)  
+> **Ossification area localization in pediatric hand radiographs using deep neural networks for object detection.**  
+> PLOS ONE 13(11): e0207496.  
+> https://doi.org/10.1371/journal.pone.0207496  
